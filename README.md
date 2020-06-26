@@ -1,12 +1,12 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/13700/35731649-652807e8-080e-11e8-88fd-1b2f6d553b2d.png" alt="Nodemon Logo">
-</p>
-
 # samwatch
 
-samwatch is a tool based in nodemon that helps you monitor and transport your changes from your source directory to the .sam-build directory while developing with AWS SAM. 
+samwatch is a tool based in nodemon that helps you monitor and transport your changes from your source tree structure to the .sam-build tree structure while developing with AWS SAM. 
 
-It basically detects changes in your files and if the current file is already inside .sam-build it makes a copy of it. If no file is found, meaning that that particular file or folder haven't been created in the .sam-build folder, it runs sam build to create the file structure. Normally, this would only happen once as opossed to run sam build everytime you make a change in your lambda and you want to see it reflected in your running sam local start-api server.
+samwatch detects changes in your source files, and if the current changed file already exists inside the .sam-build tree structure, it makes a copy of it in the corresponding .sam-build location, keeping your source and .sam-build folders in sync. 
+
+If no corresponding file is available in the .sam-build tree structure, samwatch will issue a "sam build" command. 
+
+This behavior can reduce the use of "sam build" from every time you make a change to only once whenever you need to add new files or folders to the .sam-build folder structure.
 
 # Installation
 
@@ -26,7 +26,7 @@ npm start
 
 This will start samwatch. 
 
-Next, you can start working with your files and samwatch will copy the saved changes to .sam-build folder.
+Next, you can start working with your files, and samwatch will copy the saved changes to .sam-build folder.
 
 
 # License
