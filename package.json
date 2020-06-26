@@ -1,0 +1,37 @@
+{
+  "name": "samwatch",
+  "homepage": "https://mxitgo.com/samwatch",
+  "author": {
+    "name": "MXITGO",
+    "url": "https://mxitgo.com"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxitgo/samwatch.git"
+  },
+  "description": "Monitor file changes while working with AWS SAM and Lambda functions.",
+  "keywords": [
+    "monitor",
+    "development",
+    "restart",
+    "autoload",
+    "reload",
+    "terminal",
+    "AWS",
+    "SAM",
+    "Serverless",
+    "Lambda"
+  ],
+  "license": "MIT",
+  "main": "./samwatch",
+  "scripts": {
+    "start": "node samwatch.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "version": "0.0.0-development"
+}
