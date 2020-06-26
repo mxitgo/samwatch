@@ -27,8 +27,8 @@
   ],
   "license": "MIT",
   "main": "./samwatch",
-  "scripts": {
-    "start": "node samwatch.js"
+  "bin": {
+    "samwatch": "./bin/samwatch.js"
   },
   "dependencies": {
     "nodemon": "^2.0.4"

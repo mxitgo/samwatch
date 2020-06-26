@@ -13,7 +13,7 @@ This behavior can reduce the use of "sam build" from every time you make a chang
 Either through cloning with git or by using [npm](http://npmjs.org) (the recommended way):
 
 ```bash
-npm install samwatch --save
+npm install samwatch -g
 ```
 
 # Usage
@@ -21,7 +21,7 @@ npm install samwatch --save
 Go to the root of your development and run:
 
 ```bash
-npm start
+samwatch
 ```
 
 This will start samwatch. 
