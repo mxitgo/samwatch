@@ -33,5 +33,5 @@
   "dependencies": {
     "nodemon": "^2.0.4"
   },
-  "version": "0.0.0-development"
+  "version": "0.0.4-development"
 }
