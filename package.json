@@ -1,6 +1,6 @@
 {
   "name": "samwatch",
-  "homepage": "https://mxitgo.com/samwatch",
+  "homepage": "https://mxitgo.com/",
   "author": {
     "name": "MXITGO",
     "url": "https://mxitgo.com"
@@ -34,5 +34,5 @@
     "chalk": "^4.1.0",
     "nodemon": "^2.0.4"
   },
-  "version": "0.0.22-development"
+  "version": "0.0.24-development"
 }
