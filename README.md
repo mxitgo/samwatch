@@ -35,6 +35,12 @@ samwatch n
 ```
 If you wish samwatch just to notify about the missing file and not run sam build after the error, use n or notify argument
 
+# Demo
+
+Running samwatch, saving the modified file, sam-build folder gets updated.
+
+![](https://github.com/mxitgo/samwatch/blob/master/media/screen.gif?raw=true)
+
 # License
 
 MIT [http://rem.mit-license.org](http://rem.mit-license.org)
