@@ -31,7 +31,8 @@
     "samwatch": "./bin/samwatch.js"
   },
   "dependencies": {
+    "chalk": "^4.1.0",
     "nodemon": "^2.0.4"
   },
-  "version": "0.0.4-development"
+  "version": "0.0.22-development"
 }

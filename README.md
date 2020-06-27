@@ -28,6 +28,12 @@ This will start samwatch.
 
 Next, you can start working with your files, and samwatch will copy the saved changes to .sam-build folder.
 
+# Command line options
+
+```bash
+samwatch n
+```
+If you wish samwatch just to notify about the missing file and not run sam build after the error, use n or notify argument
 
 # License
 

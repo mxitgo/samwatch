@@ -4,5 +4,5 @@
 const samwatch = require('../lib/samwatch');
 //const options = cli.parse(process.argv);
 
-samwatch();
+samwatch(process.argv);
 
