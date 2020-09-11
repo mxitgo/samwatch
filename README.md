@@ -26,7 +26,7 @@ samwatch
 
 This will start samwatch. 
 
-Next, you can start working with your files, and samwatch will copy the saved changes to .sam-build folder.
+Next, you can start working with your files, and samwatch will copy the saved changes to .aws-sam folder.
 
 # Command line options
 
